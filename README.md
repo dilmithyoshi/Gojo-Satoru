@@ -62,7 +62,7 @@ Add FFmpeg to PATH environment variable
 > pkg install wget
 > pkg install imagemagick -y
 > git clone https://github.com/nexusNw/Gojo-Satoru
-> cd Gojo-Satoru
+> cd Walle-E
 > npm install
 ```
 </details>
