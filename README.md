@@ -2,7 +2,7 @@
 <img src="https://telegra.ph/file/f3b2f9e862e1352d4fd94.jpg" alt="nz" width="350"/>
 </p>
 
-## Gojo-Satoru
+## WALL-E
 
 > <a href="https://youtu.be/W-QCp2fWRTo"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
 
@@ -123,7 +123,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ## ```Connect With Me```
 <p align="center">
-<a href="https://wa.me/918129624000"><img src="https://img.shields.io/badge/Contact Nexus-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/94775013191"><img src="https://img.shields.io/badge/Contact Nexus-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ"><img src="https://img.shields.io/badge/Subscribe Nexus-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
 </p>
 
@@ -132,11 +132,6 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 </details><hr>
 
-## Thanks To
-* [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
-* [`Alien-Alfa`](https://github.com/Alien-Alfa)
-* [`DGXeon`](https://github.com/DGXeon)
-* [`AflahXrd`](https://github.com/nexusNw)
 
 
 License: [MIT](https://github.com/Gojo-Satoru/LICENSE)
