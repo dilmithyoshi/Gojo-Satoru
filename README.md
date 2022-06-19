@@ -111,6 +111,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 </details>
 
+	
 
 ----
 
@@ -127,3 +128,17 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 
 </details><hr>
+
+	
+
+## Get your qr code from here 
+
+
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@nexusNw/Md-Scanner?outputonly=1&lite=1)
+
+
+## Then deploy bot from here
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fdilmithyoshi%2FGojo-Satoru&template=https%3A%2F%2Fgithub.com%2Fdilmithyoshi%2FGojo-Satoru)
+
