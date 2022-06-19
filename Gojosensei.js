@@ -2087,16 +2087,17 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-🐦 Title : ${anu.title}
-🐦 Ext : Search
-🐦 ID : ${anu.videoId}
-🐦 Duration : ${anu.timestamp}
-🐦 Viewes : ${anu.views}
-🐦 Uploaded On : ${anu.ago}
-🐦 Author : ${anu.author.name}
-🐦 Channel : ${anu.author.url}
-🐦 Description : ${anu.description}
-🐦 Url : ${anu.url}`,
+`•.¸¸.•´´¯`••._.• 𝐰卂𝔩l-𝒆 𝓎𝑜υ 𝓽ⓤⒷ𝐄 𝐃𝕠Ŵ𝓝Łᗝ卂𝕕€Ř •._.••`¯´´•.¸¸.•`
+♡❀˖⁺ Title : ${anu.title}
+♡❀˖⁺ Ext : Search
+♡❀˖⁺ ID : ${anu.videoId}
+♡❀˖⁺ Duration : ${anu.timestamp}
+♡❀˖⁺ Viewes : ${anu.views}
+♡❀˖⁺ Uploaded On : ${anu.ago}
+♡❀˖⁺ Author : ${anu.author.name}
+♡❀˖⁺ Channel : ${anu.author.url}
+♡❀˖⁺ Description : ${anu.description}
+♡❀˖⁺ Url : ${anu.url}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2251,7 +2252,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "YouTube📍",
+						"displayText": "group📍",
 						"url": `${myweb}`
 						}
 					}
@@ -2277,7 +2278,7 @@ case 'webtonsearch': case 'webtoon':
 	    break
             case 'coffee': case 'kopi': {
             let buttons = [
-                    {buttonId: `coffe`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                    {buttonId: `coffe`, buttonText: {displayText: 'Next Image➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
@@ -2295,11 +2296,11 @@ case 'webtonsearch': case 'webtoon':
                 anu = await wallpaper(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
 		let buttons = [
-                    {buttonId: `wallpaper ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                    {buttonId: `wallpaper ${text}`, buttonText: {displayText: 'Next Image➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: result.image[0] },
-                    caption: `🐦 Title : ${result.title}\n🐦 Category : ${result.type}\n🐦 Detail : ${result.source}\n🐦 Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
+                    caption: `♡❀˖⁺ Title : ${result.title}\n♡❀˖⁺ Category : ${result.type}\n♡❀˖⁺ Detail : ${result.source}\n♡❀˖⁺ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2313,11 +2314,11 @@ case 'webtonsearch': case 'webtoon':
                 anu = await wikimedia(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
                 let buttons = [
-                    {buttonId: `wikimedia ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                    {buttonId: `wikimedia ${text}`, buttonText: {displayText: 'Next Image➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: result.image },
-                    caption: `🐦 Title : ${result.title}\n🐦 Source : ${result.source}\n🐦 Media Url : ${result.image}`,
+                    caption: `♡❀ Title : ${result.title}\n♡❀ Source : ${result.source}\n♡❀ Media Url : ${result.image}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2330,7 +2331,7 @@ case 'webtonsearch': case 'webtoon':
                 let anu = await quotesAnime()
                 result = anu[Math.floor(Math.random() * anu.length)]
                 let buttons = [
-                    {buttonId: `quotesanime`, buttonText: {displayText: '➡️Next➡️'}, type: 1}
+                    {buttonId: `quotesanime`, buttonText: {displayText: 'Next➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
@@ -2344,7 +2345,7 @@ case 'webtonsearch': case 'webtoon':
 	        case 'motivasi': case 'motivationalquote': case 'bucinquote': case 'katasenja': case 'puisi': {
                 let anu = await fetchJson(api('zenz', '/api/'+command, {}, 'apikey'))
                 let buttons = [
-                    {buttonId: `motivasi`, buttonText: {displayText: '➡️Next➡️'}, type: 1}
+                    {buttonId: `motivasi`, buttonText: {displayText: 'Next➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: anu.result.message,
@@ -2515,7 +2516,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_hari_naas(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Day Of Birth :* ${anu.message.hari_lahir}\n🐦 *Date Of Birth :* ${anu.message.tgl_lahir}\n🐦 *Fateful Day :* ${anu.message.hari_naas}\n🐦 *Info :* ${anu.message.catatan}\n🐦 *Notes :* ${anu.message.info}`, m)
+                GojoMdNx.sendText(m.chat, `ᥫ ᘏ Ꮼ ᘓ *Day Of Birth :* ${anu.message.hari_lahir}\nᥫ ᘏ Ꮼ ᘓ *Date Of Birth :* ${anu.message.tgl_lahir}\nᥫ ᘏ Ꮼ ᘓ *Fateful Day :* ${anu.message.hari_naas}\nᥫ ᘏ Ꮼ ᘓ *Info :* ${anu.message.catatan}\nᥫ ᘏ Ꮼ ᘓ *Notes :* ${anu.message.info}`, m)
             }
             break
             case 'nagahari': case 'harinaga': {
@@ -2523,7 +2524,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rahasia_naga_hari(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Day Of Birth :* ${anu.message.hari_lahir}\n🐦 *Date Of Birth :* ${anu.message.tgl_lahir}\n🐦 *Dragon Day Direction :* ${anu.message.arah_naga_hari}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `ᥫ ᘏ Ꮼ ᘓ *Day Of Birth :* ${anu.message.hari_lahir}\nᥫ ᘏ Ꮼ ᘓ *Date Of Birth :* ${anu.message.tgl_lahir}\nᥫ ᘏ Ꮼ ᘓ *Dragon Day Direction :* ${anu.message.arah_naga_hari}\nᥫ ᘏ Ꮼ ᘓ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'arahrejeki': case 'arahrezeki': {
@@ -2531,7 +2532,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_arah_rejeki(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Day Of Birth :* ${anu.message.hari_lahir}\n🐦 *Date Of Birth :* ${anu.message.tgl_lahir}\n🐦 *Sustenance Direction :* ${anu.message.arah_rejeki}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `ᥫ ᘏ Ꮼ ᘓ *Day Of Birth :* ${anu.message.hari_lahir}\nᥫ ᘏ Ꮼ ᘓ *Date Of Birth :* ${anu.message.tgl_lahir}\nᥫ ᘏ Ꮼ ᘓ *Sustenance Direction :* ${anu.message.arah_rejeki}\nᥫ ᘏ Ꮼ ᘓ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'peruntungan': {
@@ -2539,7 +2540,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn, untuk] = text.split`,`
                 let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Name :* ${anu.message.nama}\n🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *Fortune Of The Year :* ${anu.message.peruntungan_tahun}\n🐦 *Results :* ${anu.message.result}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `ᥫ ᘏ Ꮼ ᘓ *Name :* ${anu.message.nama}\nᥫ ᘏ Ꮼ ᘓ *Born :* ${anu.message.tgl_lahir}\nᥫ ᘏ Ꮼ ᘓ *Fortune Of The Year :* ${anu.message.peruntungan_tahun}\nᥫ ᘏ Ꮼ ᘓ *Results :* ${anu.message.result}\nᥫ ᘏ Ꮼ ᘓ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'weton': case 'wetonjawa': {
@@ -2547,7 +2548,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.weton_jawa(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Date :* ${anu.message.tanggal}\n🐦 *Number Of Neptune :* ${anu.message.jumlah_neptu}\n🐦 *Day Character :* ${anu.message.watak_hari}\n🐦 *Dragon Day :* ${anu.message.naga_hari}\n🐦 *Good Hour :* ${anu.message.jam_baik}\n🐦 *Birth Character :* ${anu.message.watak_kelahiran}`, m)
+                GojoMdNx.sendText(m.chat, `ᥫ ᘏ Ꮼ ᘓ *Date :* ${anu.message.tanggal}\nᥫ ᘏ Ꮼ ᘓ *Number Of Neptune :* ${anu.message.jumlah_neptu}\nᥫ ᘏ Ꮼ ᘓ *Day Character :* ${anu.message.watak_hari}\nᥫ ᘏ Ꮼ ᘓ *Dragon Day :* ${anu.message.naga_hari}\nᥫ ᘏ Ꮼ ᘓ *Good Hour :* ${anu.message.jam_baik}\nᥫ ᘏ Ꮼ ᘓ *Birth Character :* ${anu.message.watak_kelahiran}`, m)
             }
             break
             case 'sifat': case 'karakter': {
@@ -2555,7 +2556,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Name :* ${anu.message.nama}\n🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *Lifeline :* ${anu.message.garis_hidup}`, m)
+                GojoMdNx.sendText(m.chat, `ᥫ ᘏ Ꮼ ᘓ *Name :* ${anu.message.nama}\nᥫ ᘏ Ꮼ ᘓ *Born :* ${anu.message.tgl_lahir}\nᥫ ᘏ Ꮼ ᘓ *Lifeline :* ${anu.message.garis_hidup}`, m)
             }
             break
             case 'keberuntungan': {
@@ -2563,7 +2564,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Name :* ${anu.message.nama}\n🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *Results :* ${anu.message.result}`, m)
+                GojoMdNx.sendText(m.chat, `ᥫ ᘏ Ꮼ ᘓ *Name :* ${anu.message.nama}\nᥫ ᘏ Ꮼ ᘓ *Born :* ${anu.message.tgl_lahir}\nᥫ ᘏ Ꮼ ᘓ *Results :* ${anu.message.result}`, m)
             }
             break
             case 'memancing': {
@@ -2571,7 +2572,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_memancing_ikan(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Date :* ${anu.message.tgl_memancing}\n🐦 *Results :* ${anu.message.result}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `ᥫ ᘏ Ꮼ ᘓ *Date :* ${anu.message.tgl_memancing}\nᥫ ᘏ Ꮼ ᘓ *Results :* ${anu.message.result}\nᥫ ᘏ Ꮼ ᘓ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'masasubur': {
@@ -2579,7 +2580,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn, siklus] = text.split`,`
                 let anu = await primbon.masa_subur(tgl, bln, thn, siklus)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Results :* ${anu.message.result}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `ᥫ ᘏ Ꮼ ᘓ *Results :* ${anu.message.result}\nᥫ ᘏ Ꮼ ᘓ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'zodiak': case 'zodiac': {
@@ -2676,13 +2677,13 @@ case 'webtonsearch': case 'webtoon':
                 }
             }
             break
-	        case 'tiktokd': case 'tiktoknowmx': {
+	        case 'tiktok': case 'tiktoknowmx': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬With Watermark🥬'}, type: 1},
-                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🕊With Watermark🕊'}, type: 1},
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: 🕊Audio🕊'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.nowatermark },
@@ -2699,8 +2700,8 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬No Watermark🥬'}, type: 1},
-                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🕊No Watermark🕊'}, type: 1},
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🕊Audio🕊'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.watermark },
@@ -2717,8 +2718,8 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬No Watermark🥬'}, type: 1},
-                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬With Watermark🥬'}, type: 1}
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🕊No Watermark🕊'}, type: 1},
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🕊With Watermark🕊'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: `Download From ${text}`,
@@ -2828,11 +2829,11 @@ case 'webtonsearch': case 'webtoon':
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
 			caption: `
-🐦 Title : ${anu.title}
-🐦 Author : ${anu.author.name}
-🐦 Like : ${anu.like}
-🐦 Caption : ${anu.caption}
-🐦 Url : ${anu.media[0]}
+--🧚🏼 Title : ${anu.title}
+--🧚🏼 Author : ${anu.author.name}
+--🧚🏼 Like : ${anu.like}
+--🧚🏼 Caption : ${anu.caption}
+--🧚🏼 Url : ${anu.media[0]}
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
 			footer: GojoMdNx.user.name,
@@ -3291,11 +3292,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/1_vdJH8HDhqmEw5-2wEqNj8g.jpeg')},
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  yoshitha dilmith🎉
+┌┤✑  𝕛𝕦𝕡𝕚𝕥𝕖𝕣🎉
 ││✑  🐦🖐️!!
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
@@ -3356,9 +3357,9 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  jupiter😄
+┌┤✑  𝕎𝕒𝕝𝕝-𝕖
 │└───────────────┈ ⳹
-│ 「 BOT INFO 」
+│ 「 ❄️🄱🄾🅃 🄸🄽🄵🄾❄️ 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
