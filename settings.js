@@ -21,7 +21,7 @@ global.APIKeys = {
 //customize settings\\
 global.owner = ['94775013191']
 global.premium = ['94775013191']
-global.ownernomer = '775013191'
+global.ownernomer = '94775013191'
 global.ownername = 'Jupiter bot'
 global.botname = 'WALL-E'
 global.footer = 'jupiter'
