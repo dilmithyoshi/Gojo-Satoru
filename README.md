@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://telegra.ph/file/Wall-E-06-19.jpg" alt="nz" width="350"/>
+<img src="https://telegra.ph/file/7de51f8c6ce457a350ea8.jpg" alt="nz" width="350"/>
 </p>
 
 ## WALL-E
